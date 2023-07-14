@@ -1,6 +1,6 @@
 # Coworking Space Webapplikation
 
-Diese Webapplikation ermöglicht die Verwaltung eines Coworking Spaces, einschließlich der Buchung von Arbeitsplätzen und der Benutzerverwaltung.
+Diese Webapplikation ermöglicht die Verwaltung eines Coworking Spaces, einschliesslich der Buchung von Arbeitsplätzen und der Benutzerverwaltung.
 
 ## Projekt-Setup
 
