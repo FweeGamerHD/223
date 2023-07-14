@@ -21,14 +21,14 @@ public class CoworkingSpaceApplication {
 	public CommandLineRunner demoUsers(BenutzerRepository userRepository, BuchungRepository repository) {
 		return (args) -> {
 			// save a couple of entities
-
+/*
 			log.info(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>CommandlineRunner::demoTasksWithJwt");
 			String salt = BCrypt.gensalt();
 
 			log.info("salt : "+salt);
-			Benutzer u1 = new Benutzer("admin", BCrypt.hashpw("123",salt), salt, TasksUserRoles.ADMIN);
-			Benutzer u2 = new Benutzer("member", BCrypt.hashpw("231",salt), salt, TasksUserRoles.MEMBER);
-			Benutzer u3 = new Benutzer("guest", BCrypt.hashpw("321",salt), salt, TasksUserRoles.CUSTOMER);
+			Benutzer u1 = new Benutzer("admin", BCrypt.hashpw("123",salt), salt, "admin");
+			Benutzer u2 = new Benutzer("member", BCrypt.hashpw("231",salt), salt, "member");
+			Benutzer u3 = new Benutzer("guest", BCrypt.hashpw("321",salt), salt, "guest");
 
 			BenutzerRepository.save(u1);
 			BenutzerRepository.save(u2);
@@ -41,6 +41,8 @@ public class CoworkingSpaceApplication {
 			}
 			log.info("");
 			log.info("User and Roles persisted in DemoDataLoader");
+
+
 
 			// save a couple of customers
 			Buchung t1 = new Buchung(u1,"Dinner with my Family");
@@ -70,7 +72,8 @@ public class CoworkingSpaceApplication {
 			});
 
 			log.info("tasks");
-
+*/
+			System.out.println("check");
 
 
 
